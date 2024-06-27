@@ -31,6 +31,8 @@ main {
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 50px;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 ul, li {
@@ -41,13 +43,13 @@ ul, li {
 }
 
 .joke-setup {
-  color: #F0E68C; 
+  color: navajowhite; 
 }
 
 /* hide the punchline */
 .joke-punchline {
   display: none;
-  color: #FF6347; 
+  color: aquamarine; 
 }
 
 /* show punchline when hovering over setup */
@@ -62,13 +64,14 @@ button {
   background-color: navajowhite;
   color: #0C2697;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 /* enter the go button */
 #joke-form button {
   margin: 10px auto; 
   display: block;
+  margin-bottom: 30px;
 }
 
 button:hover {
@@ -76,7 +79,35 @@ button:hover {
   color: navajowhite;
 }
 
-fieldset, #dog-section-heading, #dog-section-description {
+legend {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: navajowhite;
+  background-color: #0C2697;
+  padding: 5px 15px 5px 15px;
+}
+
+fieldset {
+  background-color: #0C2697;
+  color: navajowhite;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  padding: 15px 15px 15px 15px;
+}
+
+div, label {
+  background-color: #0C2697;
+  color: navajowhite;
+}
+
+#all-joke-types {
+  padding-left: 30px;
+}
+
+#dog-section-heading, #dog-section-description {
   background-color: #0C2697;
   color: navajowhite;
 }
@@ -126,4 +157,3 @@ footer {
     max-height: 200px;
   }
 }
-
