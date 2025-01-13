@@ -1,5 +1,7 @@
 # RandomJokes
 
+Watch the demo video [here](https://youtu.be/2JEyWoVJFJ0).
+
 RandomJokes is a lighthearted web application designed to bring joy and relaxation to users by delivering random jokes and adorable dog pictures. Developed as a two-person group project using JavaScript, HTML, and CSS, RandomJokes ensures a seamless and delightful experience across desktop and mobile devices.
 
 ## Features
